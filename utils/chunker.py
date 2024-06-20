@@ -24,7 +24,6 @@ def extract_text_from_txt(file):
     return file.decode('utf-8')
 
 def extract_text_from_pdf(file):
-    print(file)
     text = ""
     document = fitz.open(stream=file, filetype="pdf")
     for page_num in range(document.page_count):
