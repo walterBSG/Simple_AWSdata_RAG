@@ -21,11 +21,12 @@ def extract_text(file, filename):
     return text
 
 def extract_text_from_txt(file):
-    return file.read().decode('utf-8')
+    return file.decode('utf-8')
 
 def extract_text_from_pdf(file):
+    print(file)
     text = ""
-    document = fitz.open(stream=file.read(), filetype="pdf")
+    document = fitz.open(stream=file, filetype="pdf")
     for page_num in range(document.page_count):
         page = document.load_page(page_num)
         text += page.get_text()
