@@ -1,7 +1,7 @@
 
-# Property Valuation Model
+# AWS Data Chat with Retrieval-Augmented Generation (RAG)
 
-This repository contains a comprehensive solution for estimating property valuations for a real estate client in Chile. The project includes a robust pipeline, an API, and Jupyter notebooks for database configuration and testing. The solution is designed to be deployable using Docker and follows best coding practices.
+The AWS Data Chat with Retrieval-Augmented Generation (RAG) is an innovative project designed to enhance user interactions with AWS data. This solution leverages cutting-edge RAG technology to provide efficient and accurate responses to user queries, combining the strengths of pre-trained language models and real-time data retrieval from AWS.
 
 ## Table of Contents
 - [Project Structure](#project-structure)
