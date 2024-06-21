@@ -44,7 +44,8 @@ The AWS Data Chat with Retrieval-Augmented Generation (RAG) is an innovative pro
 
 ### Prerequisites
 - Python 3.11
-- Other requirements listed in `requirements.txt`
+- PostgreSQL with pgvector extension
+- Additional Python dependencies listed in requirements.txt
 
 ### Steps
 1. Clone the repository:
